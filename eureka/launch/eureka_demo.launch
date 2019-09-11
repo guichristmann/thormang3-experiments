@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="eureka"  type="eureka_main.py" name="eureka" output="screen"/>
+  <node pkg="eureka"  type="hybridIK.py" name="hybridIK" output="screen"/>
+  <node pkg="eureka"  type="thormang3_Kinematics" name="thormang3_Kinematics" output="screen"/>
+ </launch>

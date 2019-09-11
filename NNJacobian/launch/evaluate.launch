@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  
+  
+  <node pkg="NNJacobian"  type="evaluateNNvsJacobian" name="evaluateNNvsJacobian" output="screen"/>
+  <node pkg="NNJacobian"  type="NNservice.py" name="NNservice" output="screen"/>
+
+ </launch>
